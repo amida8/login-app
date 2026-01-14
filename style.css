@@ -1,32 +1,58 @@
+/* 全局统一尺寸计算（很重要） */
+* {
+  box-sizing: border-box;
+}
+
+/* 页面整体居中 */
 body {
   font-family: Arial, sans-serif;
   background-color: #f0f0f0;
+
   display: flex;
   justify-content: center;
   align-items: center;
+
   height: 100vh;
   margin: 0;
 }
-login-container{
+
+/* 登录卡片 */
+.login-container {
   background: white;
-  padding: 24px;          /* ✅ 上下左右一样 */
+  padding: 24px;                /* ✅ 左右一样大 */
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
   width: 100%;
-  max-width: 360px;
-  box-sizing: border-box;
+  max-width: 360px;             /* ✅ 卡片最大宽度 */
 }
+
+/* 表单占满容器 */
+form {
+  width: 100%;
+}
+
+/* 输入框 */
 input {
   width: 100%;
   padding: 10px;
   margin: 10px 0;
+
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: block;
 }
+
+/* 按钮 */
 button {
   width: 100%;
   padding: 10px;
+  margin-top: 10px;
+
   background-color: #007bff;
   color: white;
   border: none;
   border-radius: 5px;
+
+  cursor: pointer;
 }
