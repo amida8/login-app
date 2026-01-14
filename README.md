@@ -40,7 +40,7 @@ login-app/
 
 ## 👤 作者 / Author
 
-- Name: リナ（Lina）  
+- Name: リ ナ（LI NA）  
 - Email: nina1769796516@gmail.com
 
 ---
