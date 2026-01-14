@@ -23,8 +23,7 @@ HTMLとCSSのみで構成されており、軽量かつレスポンシブ対応�
 
 ## 🖥 プレビュー / Demo
 
-🔗 [GitHub Pagesで公開する場合はここにリンクを追加]  
-👉 https://amida8.github.io/login-app/
+🔗 https://amida8.github.io/login-app/
 
 ---
 
