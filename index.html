@@ -1,19 +1,41 @@
+<!-- 【固定】HTML 文档类型声明 -->
 <!DOCTYPE html>
-<html lang="en">
+<!-- 【固定】HTML 根节点，语言属性可根据需求改 -->
+<html lang="en"> <!-- 【可变】lang="en" -->
+
 <head>
+  <!-- 【固定】字符编码 -->
   <meta charset="UTF-8" />
+
+  <!-- 【固定】响应式布局基础 -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!-- 【可变】页面标题 -->
   <title>Login Page</title>
+
+  <!-- 【可变】外部 CSS 文件名 -->
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
+  <!-- 【可变】容器 class 名（与 CSS 强相关） -->
   <div class="login-container">
+    
+    <!-- 【可变】页面标题文字 -->
     <h2>Login</h2>
+
+    <!-- 【固定】表单结构 -->
     <form>
+      <!-- 【可变】input 类型 / placeholder 文案 -->
       <input type="text" placeholder="Username" required /><br/>
+
+      <!-- 【可变】input 类型 / placeholder 文案 -->
       <input type="password" placeholder="Password" required /><br/>
+
+      <!-- 【可变】按钮文字 -->
       <button type="submit">Sign in</button>
     </form>
+
   </div>
 </body>
 </html>
