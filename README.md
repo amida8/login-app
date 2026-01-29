@@ -1,23 +1,23 @@
 # ログイン画面 / Interview Login Page UI
 
-これは、シンプルなログイン画面です。  
-HTMLとCSSのみで構成されており、軽量かつレスポンシブ対応。
+これは、HTML と CSS のみで作成した、デザインがシンプルなログイン画面です。
+パソコンとスマホの両方の画面サイズに対応しています。
 
 ---
 
 ## 🎯 特徴 / Features
 
-- 📱 モバイル対応（レスポンシブデザイン）  
-- 🎨 シンプルでわかりやすいUI  
-- 💡 HTML5 + CSS3のみで構成  
-- ✏️ JavaScript不要の軽量構成  
+- 📱 レスポンシブ対応（PC・スマートフォン）
+- 🎨 シシンプルで、見やすい画面です  
+- 💡 HTML と CSS だけで作っています 
+- ✏️ JavaScript は使っていません
 
 ---
 
 ## 🛠 使用技術 / Tech Stack
 
 - HTML5  
-- CSS3（Flexbox）
+- CSS3（Flexbox:この場合、body は Flexbox を設定した親要素です。その直下の子要素であるログイン画面を、画面の中央に配置しています）
 
 ---
 
@@ -31,7 +31,7 @@ HTMLとCSSのみで構成されており、軽量かつレスポンシブ対応�
 
 ```
 login-app/
-├── index.html         # メインHTMLファイル
+├── index.html         # HTMLファイル
 ├── style.css          # スタイル定義
 └── README.md          # プロジェクト説明
 ```
@@ -45,6 +45,6 @@ login-app/
 
 ---
 
-## 📄 ライセンス / License
+## 📄 ライセンス / License使用许可或使用规则
 
-MIT License
+MIT License【MIT License は、だれでも自由に使ってよい、やさしいライセンスです。】
